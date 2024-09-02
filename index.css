@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+/* ==== First section ==== */
+.img_wrap {
+    border: 2px solid black;
+    width: 50%;
+}
+.img{
+    border: 1px solid red   ;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==== Second section === */
+.sec_wrap {
+    border: 1px solid black;
+    width: 50%;
+}
