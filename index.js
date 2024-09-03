@@ -1,5 +1,6 @@
 const regForm = document.getElementById("udReg");
 const errMessage = document.getElementById("regError");
+const regPage = document.getElementById("welcome_user");
 
 
 regForm.addEventListener("submit", (e) => {
@@ -25,8 +26,10 @@ regForm.addEventListener("submit", (e) => {
         );
         return;
     }
-
+    const successReg = "http://127.0.0.1:5500/udemy_reg/reg.html"
     alert(`Welcome ${fullName.value}, registration successful`);
+    console.log(regPage)
+    window.open(successReg)
     regForm.reset();
 })
 
