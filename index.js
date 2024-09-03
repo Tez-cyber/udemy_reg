@@ -10,8 +10,8 @@ regForm.addEventListener("submit", (e) => {
     errMessage.innerHTML = "";
 
     if (!fullName.value.trim()) {
-        showErr("Username is required.");
-        return;
+        setTimeout(showErr("Username is required."), [2000])
+        return ;
     }
 
     if (!email.value.trim() || !isValidEmail(email.value)) {
