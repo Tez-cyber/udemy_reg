@@ -11,6 +11,15 @@ section {
     justify-content: center;
     margin: 0 40px;
 }
+/* ====== */
+nav {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.logo {
+    width: 7%;
+}
 
 /* ==== First section ==== */
 .img_wrap {
@@ -92,6 +101,11 @@ input[type='submit'] {
         width: 85%;
         text-align: center;
     }
+    input[type='text'],
+    input[type='email'],
+    input[type='password'] {
+        width: 80% !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,6 +114,11 @@ input[type='submit'] {
         align-items: center;
         justify-content: center;
     }
+
+    .logo {
+        width: 15%;
+    }
+
 
     .img_wrap {
         width: 90%;
