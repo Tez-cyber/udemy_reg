@@ -26,7 +26,7 @@ regForm.addEventListener("submit", (e) => {
         return;
     }
 
-    alert("Signup successful!");
+    alert(`Welcome ${fullName.value}, registration successful`);
     regForm.reset();
 })
 
