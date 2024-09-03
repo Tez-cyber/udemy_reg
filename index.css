@@ -106,6 +106,7 @@ input[type='submit'] {
     input[type='email'],
     input[type='password'] {
         width: 80% !important;
+        margin-right: 0px;
     }
 }
 
