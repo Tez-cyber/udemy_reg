@@ -11,7 +11,7 @@ regForm.addEventListener("submit", (e) => {
     errMessage.innerHTML = "";
 
     if (!fullName.value.trim()) {
-        setTimeout(showErr("Username is required."), [2000])
+        showErr("Username is required.")
         return ;
     }
 
